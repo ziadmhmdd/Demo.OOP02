@@ -8,10 +8,11 @@ namespace OOP02.inheritance
 {
     internal class Child : Parent
     {
+        #region Child
         public int Z { get; set; }
 
 
-        public Child(int X, int Y, int Z) : base(X,Y)
+        public Child(int X, int Y, int Z) : base(X, Y)
         {
             this.Z = Z;
         }
@@ -31,6 +32,7 @@ namespace OOP02.inheritance
         public override string ToString()
         {
             return $"X: {X} :: Y: {Y} :: Z: {Z}";
-        }
+        } 
+        #endregion
     }
 }
