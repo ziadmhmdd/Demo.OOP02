@@ -9,6 +9,7 @@ namespace OOP02.Binding
     // Container For Common Property
     internal class Employee
     {
+        #region Employee
         public int Id { get; set; }
         public string Name { get; set; }
         public string Email { get; set; }
@@ -24,6 +25,7 @@ namespace OOP02.Binding
             Console.WriteLine($"Salary: ???");
         }
 
+        #endregion
     }
 
 
