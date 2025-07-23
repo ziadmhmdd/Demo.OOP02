@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace OOP02.Binding
 {
+    #region Fulltime
     internal class FullTimeEmployee : Employee
     {
-        
+
         public double Salary { get; set; }
 
         public new void Fun01()
@@ -18,8 +19,9 @@ namespace OOP02.Binding
 
         public override void Fun02()
         {
-            Console.WriteLine($"Salary: {Salary}");       
-        }
+            Console.WriteLine($"Salary: {Salary}");
+        } 
+        #endregion
 
     }
 }
