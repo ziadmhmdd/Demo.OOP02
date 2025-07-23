@@ -1,4 +1,5 @@
 ﻿using OOP02.inheritance;
+using OOP02.overriding;
 
 namespace OOP02
 {
@@ -76,6 +77,24 @@ namespace OOP02
 
             //Sum(1.3,2.4);
             //Sum() 
+            #endregion
+
+            #region 3.2. Polymorphism Methods (Functions) Overriding
+            // 3.2. Polymorphism Methods (Functions) Overriding 
+            // There are more than one functions [in the different class] these have the same Name and
+            // the same signature but with behaviour
+
+            //TypeB typeB = new TypeB() { A = 12, B = 13 };
+
+            ////typeB.A = 12;
+            ////typeB.B = 13;
+
+            //Console.WriteLine(typeB.A);
+            //Console.WriteLine(typeB.B);
+
+            //typeB.Fun01();
+            //typeB.Fun02();
+
             #endregion
 
 
