@@ -8,6 +8,7 @@ namespace OOP02.overriding
 {
     internal class TypeA
     {
+        #region TypeA
         public int A { get; set; }
 
         public void Fun01()
@@ -19,5 +20,6 @@ namespace OOP02.overriding
             Console.WriteLine($"A: {A}");
         }
 
+        #endregion
     }
 }
