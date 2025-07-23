@@ -8,6 +8,7 @@ namespace OOP02.inheritance
 {
     internal class Parent
     {
+        #region Parent
         public int X { get; set; }
         public int Y { get; set; }
 
@@ -24,7 +25,7 @@ namespace OOP02.inheritance
 
         //public Parent()
         //{
-            
+
         //}
 
         public Parent(int X, int Y)
@@ -35,6 +36,7 @@ namespace OOP02.inheritance
         public override string ToString()
         {
             return $"X: {X} :: Y: {Y}";
-        }
+        } 
+        #endregion
     }
 }
