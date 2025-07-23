@@ -8,6 +8,7 @@ namespace OOP02.overriding
 {
     internal class TypeB : TypeA
     {
+        #region TypeB
         public int B { get; set; }
 
         // override or hide
@@ -31,5 +32,6 @@ namespace OOP02.overriding
             Console.WriteLine($"A: {A} :: B: {B}");
         }
 
+        #endregion
     }
 }
