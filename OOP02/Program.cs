@@ -1,10 +1,46 @@
-﻿using OOP02.inheritance;
+﻿using OOP02.Binding;
+using OOP02.inheritance;
 using OOP02.overriding;
 
 namespace OOP02
 {
     internal class Program
     {
+        //static void EmployeeProcess(FullTimeEmployee employee)
+        //{
+        //    if (employee is not null)
+        //    {
+        //        employee.Fun01();
+        //        employee.Fun02();
+        //    }
+
+        //}
+
+        //static void EmployeeProcess(PartTimeEmployee employee)
+        //{
+        //    if (employee is not null)
+        //    {
+        //        employee.Fun01();
+        //        employee.Fun02();
+        //    }
+        //}
+
+        //static void EmployeeProcess(PartTimeEmployee employee)
+        //{
+        //    if (employee is not null)
+        //    {
+        //        employee.Fun01();
+        //        employee.Fun02();
+        //    }
+
+        //static void EmployeeProcess(Employee employee)
+        //{
+        //    if (employee is not null)
+        //    {
+        //        employee.Fun01();
+        //        employee.Fun02();
+        //    }
+
 
         static int Sum(int X, int Y, int Z)
         { 
@@ -148,10 +184,38 @@ namespace OOP02
 
             #endregion
 
+            #region When U Need Binding ??
 
+            // When U Need Binding ??
 
+            // FullTimeEmployee : Id, Name, Address< Email, Salary
 
+            //FullTimeEmployee fullTimeEmployee = new FullTimeEmployee()
+            //{
+            //    Id = 1,
+            //    Name = "Ahmed",
+            //    Email = "ahmed@g.c",
+            //    Address = "Cairo",
+            //    Salary = 12000
 
+            //};
+
+            //// PartTimeEmployee : Id, Name, Address, Email, NumberOfHours, HourRate 
+
+            //PartTimeEmployee partTimeEmployee = new PartTimeEmployee()
+            //{
+            //    Id = 2,
+            //    Name = "Ziad",
+            //    Email = "Ziad@g.C",
+            //    Address = "Cairo",
+            //    Hourrate = 300,
+            //    NumberOfHour = 200
+            //};
+
+            ////EmployeeProcess(partTimeEmployee);
+            ////// NullReferenceException 
+
+            #endregion
 
 
 
