@@ -8,7 +8,8 @@ namespace OOP02.Binding
 {
     internal class PartTimeEmployee : Employee
     {
-     
+        #region PArttime
+
         public double Hourrate { get; set; }
         public int NumberOfHour { get; set; }
 
@@ -22,6 +23,7 @@ namespace OOP02.Binding
             Console.WriteLine($"Salary: {Hourrate * NumberOfHour}");
         }
 
+        #endregion
 
     }
 }
