@@ -97,6 +97,36 @@ namespace OOP02
 
             #endregion
 
+            #region What is Binding ?
+            //// Binding 
+            //// What is Binding ?
+
+            //// ReferenceFromParent ---> ObjectChild
+
+            //TypeA Ref;
+
+            //Ref = new TypeA();
+            //// Ref = new TypeB();
+
+            //// Child is a Parent 
+
+            //// TypeB is a TypeA
+
+            //Ref = new TypeB();
+
+            //Ref.A = 12;
+            ////Ref.B = 12;
+
+            //Ref.Fun01(); // Static Binded Methods  
+            //Ref.Fun02(); 
+            #endregion
+
+
+
+
+
+
+
 
 
 

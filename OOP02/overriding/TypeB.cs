@@ -16,6 +16,10 @@ namespace OOP02.overriding
         // 1. Apply override using 'new' Keyword
         // 2. Apply override using 'override' Keyword
 
+        // Static Binding 
+        // Compiler Will Bind Function Call Based On Reference Type Not The Object Type
+        // At Compilation
+
         public new void Fun01() // using new Keyword
         {
             Console.WriteLine("Fun01 From TypeB");
@@ -27,6 +31,10 @@ namespace OOP02.overriding
         //    Console.WriteLine($"A: {A} :: B: {B}");
         //}
 
+
+        // Dynamic Binding
+        // CLR Will Bind The Function Call Based On Object Type Not The Reference Type 
+        // Runtime
         public override void Fun02()
         {
             Console.WriteLine($"A: {A} :: B: {B}");
