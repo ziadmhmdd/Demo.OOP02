@@ -217,6 +217,12 @@ namespace OOP02
 
             #endregion
 
+            TypeA typeA;
+
+            typeA = new TypeA();
+            typeA = new TypeB(); // Binding 
+
+
 
 
 
