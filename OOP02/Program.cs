@@ -121,6 +121,39 @@ namespace OOP02
             //Ref.Fun02(); 
             #endregion
 
+            #region Not Binding
+
+            // Binding 
+            // RefParent ---> ObjChild
+
+            //TypeA Ref = new TypeA();
+
+            //Ref = new TypeB(); // Binding
+
+            //TypeB Ref = new TypeB();
+
+            //Ref = new TypeA();
+
+            //Child is a Parent
+
+            // Animal --> Dog : Dog is a Animal 
+            // Dog -> (Dog) Animal : Animal is a Dog
+
+
+            //TypeA Ref = new TypeA();
+            ////Ref = new TypeB();
+
+
+            //TypeB typeB = (TypeB)Ref;
+
+            #endregion
+
+
+
+
+
+
+
 
 
 
