@@ -4,6 +4,34 @@ namespace OOP02
 {
     internal class Program
     {
+
+        static int Sum(int X, int Y, int Z)
+        { 
+            return X + Y + Z;       
+        }
+
+        static int Sum(int X, int Y)
+        {
+            return X + Y;
+        }
+
+
+        static double Sum(double X, double Y)
+        {
+            return X + Y;
+        }
+
+        static double Sum(int X, double Y)
+        {
+            return X + Y;
+        }
+
+        static double Sum(double X, int Y)
+        {
+            return X + Y;
+        }
+
+
         static void Main()
         {
             #region Class Vs Struct 
@@ -28,6 +56,34 @@ namespace OOP02
             child.Fun02();
 
             #endregion
+
+            #region Polymorphism Overview
+            // 3. Polymorphism
+            // 3.1. Polymorphism Methods (Functions) Overloading
+            // 3.2. Polymorphism Methods (Functions) Overriding 
+
+            // Console.WhriteLine(); 
+            #endregion
+
+            #region 3.1. Polymorphism Methods (Functions) Overloading
+            // 3.1. Polymorphism Methods (Functions) Overloading
+            // There are More than One Function (in the same scope [class - struct])
+            // These have the same Name but With Different Signature
+            // (count - type - order) Parameters
+
+            //Sum(1, 2);
+            //Sum(1.3, 2.4);
+
+            //Sum(1.3,2.4);
+            //Sum() 
+            #endregion
+
+
+
+
+
+
+
         }
     }
 }
